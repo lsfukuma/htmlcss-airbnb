@@ -19,14 +19,12 @@ main{
 .citta:first-child{
     background-image: url('https://cdni.rbth.com/rbthmedia/images/2018.10/original/5bd6beae15e9f94a6f69c791.jpg');
     background-size: cover;
-    opacity: 0.8;
     border: 10px solid #B0C4DE;
 }
 
 .citta:nth-child(2) {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT9UTTr-CJUlQMGiVmB-8TDiRwOkHOzLIpBvU1bf_ZX-SBtwhzu");
     background-size: cover;
-    opacity: 0.7;
     border: 10px solid #B0C4DE;
 
 }
@@ -34,7 +32,6 @@ main{
     background-image: url("https://www.10cose.it/wp-content/uploads/2015/09/bologna.jpg");
     background-size: cover;
     border: 10px solid #B0C4DE;
-    opacity: 0.5;
 }
 
 .citta h1{
@@ -43,5 +40,10 @@ main{
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%)
+
+}
+
+.opacità {
+  color: rgba(0, 0, 0, 0.5);
 
 }
